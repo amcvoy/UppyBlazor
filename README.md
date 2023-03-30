@@ -1,6 +1,8 @@
 # Uppy Dashoboard Blazor Integration
 A hosted Blazor WebAssembly application which integrates the Uppy Dashoboard.
 
+**This project is WIP.**
+
 ## Features
 - Built on .Net 7.0 with Visual Studio 2022
 - Hosted Blazor WebAssembly
