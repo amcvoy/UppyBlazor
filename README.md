@@ -2,7 +2,7 @@
 A hosted Blazor WebAssembly application which integrates the Uppy Dashoboard.
 
 ## Features
-- Built on .Net 7.0
+- Built on .Net 7.0 with Visual Studio 2022
 - Hosted Blazor WebAssembly
 - Uppy Dashboard
 - Uppy Tus and tusdotnet server
