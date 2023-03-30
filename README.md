@@ -1,5 +1,5 @@
 # Uppy Dashboard Blazor Integration
-A hosted Blazor WebAssembly application which integrates the Uppy Dashoboard.
+A hosted Blazor WebAssembly application which integrates the Uppy Dashboard.
 
 **This project is WIP.**
 
