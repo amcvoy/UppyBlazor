@@ -1,0 +1,16 @@
+﻿@page "/"
+@using UppyBlazor.Client.Components.Uppy.Dashboard
+
+<PageTitle>Dashboard</PageTitle>
+
+<MudText Typo="Typo.h5" Color="Color.Primary" Class="mb-2">Uppy Dashboard</MudText>
+
+<MudPaper Elevation="25" Height="800px" Width="100%" Style="padding:20px;">
+    <UppyDashboard AutoProceed=false DarkMode="@IsDarkMode" Note="UppyBlazor Dashboard Example" />
+</MudPaper>
+
+
+@code {
+    [CascadingParameter]
+    protected bool IsDarkMode { get; set; }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "uppyclient",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "esbuild ./Uppy/Dashboard/UppyDashboard.razor.ts --bundle --target=es2021 --platform=browser --format=esm --outfile=./Uppy/Dashboard/UppyDashboard.razor.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.17.12",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@uppy/core": "^3.1.1",
+    "@uppy/dashboard": "^3.3.1",
+    "@uppy/tus": "^3.0.5"
+  }
+}
